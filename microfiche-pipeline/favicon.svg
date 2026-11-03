@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="lens"><circle cx="41" cy="39" r="11"/></clipPath>
+  </defs>
+  <!-- tile -->
+  <rect width="64" height="64" rx="14" fill="#111827"/>
+  <!-- fiche sheet: dark film with a grid of light frames -->
+  <rect x="7" y="10" width="44" height="34" rx="3" fill="#1d4ed8"/>
+  <g fill="#bfdbfe">
+    <rect x="11" y="14" width="10" height="7" rx="1"/>
+    <rect x="24" y="14" width="10" height="7" rx="1"/>
+    <rect x="37" y="14" width="10" height="7" rx="1"/>
+    <rect x="11" y="24" width="10" height="7" rx="1"/>
+    <rect x="24" y="24" width="10" height="7" rx="1"/>
+    <rect x="11" y="34" width="10" height="7" rx="1" opacity=".55"/>
+  </g>
+  <!-- magnifier: lens shows one frame enlarged and cleaned up (dark on white) -->
+  <circle cx="41" cy="39" r="11" fill="#ffffff"/>
+  <g clip-path="url(#lens)" stroke="#111827" stroke-width="2.2" stroke-linecap="round">
+    <line x1="34" y1="35" x2="48" y2="35"/>
+    <line x1="34" y1="39.5" x2="45" y2="39.5"/>
+    <line x1="34" y1="44" x2="47" y2="44"/>
+  </g>
+  <circle cx="41" cy="39" r="11" fill="none" stroke="#f59e0b" stroke-width="4"/>
+  <line x1="49.5" y1="47.5" x2="57" y2="55" stroke="#f59e0b" stroke-width="5.5" stroke-linecap="round"/>
+</svg>
